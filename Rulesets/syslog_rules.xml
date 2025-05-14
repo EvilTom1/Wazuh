@@ -1,0 +1,14 @@
+<!-- Syslog errors. -->
+<group name="syslog,errors,">
+  <rule id="1001" level="2">
+    <match>^Couldn't open /etc/securetty</match>
+    <description>File missing. Root access unrestricted.</description>
+    <group>pci_dss_10.2.4,gpg13_4.1,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.14,nist_800_53_AC.7,tsc_CC6.1,tsc_CC6.8,tsc_CC7.2,tsc_CC7.3,</group>
+  </rule>
+
+  <rule id="1002" level="2">
+    <match>$BAD_WORDS</match>
+    <description>Unknown problem somewhere in the system.</description>
+    <group>gpg13_4.3,</group>
+  </rule>
+</group>
