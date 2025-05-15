@@ -53,6 +53,23 @@ place the scrtpts in this location /var/ossec/active-response/bin/
 
  automatically respond to detected threats by executing predefined commands (defined in the **<command>** section). Block malicious IPs, Disable user accounts, Run custom scripts
 
- # 12. 
+ # 12. wazuh module (wodle)
+ **tag: wodle**
+
+ Wodles enable specialized monitoring beyond basic log analysis. its collect more informtions, runnig cmds
+
+ These modules extend Wazuh’s capabilities by integrating with other tools or collecting specialized data
+
+ # 13. Security Configuration Assessment (SCA)
+ **tag: sca**
+
+ its like checklist to checks systems security (pass strength, firewall on?, file permission are safe, complience check)
+
+ # 14. tagging or metadata
+ **tag: lables**
+
+ its allows us add metadata to agent and w.m. info like department, location, environment, asset type, or owner. These labels are stored and visible in the Wazuh dashboard (under agent details).
+
+They can also be used in rules, queries, and automation.
 
 
