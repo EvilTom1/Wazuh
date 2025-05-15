@@ -1,4 +1,4 @@
-i learnt the parent tags in ossec.config file. but every paraent tags have a several child tgs themslves. everythings are used in various aspts. 
+i learnt the parent tags in ossec.config file. but every paraent tags have a several child tgs themslves. everythings are used in various aspts. still i need to learn more about it. its make little bit of confusin. 
 
 
 # 1. Global settings
