@@ -93,4 +93,8 @@ used to connect multiple Wazuh managers for scalability, high availability, and 
 
  scans systems for known security vulnerabilities based in vulnerability databases like cve.
 
+# 19. Integration 
+**tag: integration**
+
+this sec used to integrate the extrnal tool like threat intel virustotal. 
 
