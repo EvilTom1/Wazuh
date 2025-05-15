@@ -1,3 +1,5 @@
+i learnt the parent tags in ossec.config file. but every paraent tags have a several child tgs themslves. everythings are used in various aspts. 
+
 
 # 1. Global settings
  **tag: global**
