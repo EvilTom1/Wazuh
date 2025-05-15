@@ -72,4 +72,25 @@ place the scrtpts in this location /var/ossec/active-response/bin/
 
 They can also be used in rules, queries, and automation.
 
+# 15. Windows Registry Monitoring
+**tag: registry**
+
+monitor changes in the Windows Registry. it can detect if keys or values are added, deleted, or modified. its very important for detecting malware, persistence mechanisms, or unauthorized changes.
+
+# 16. Wazuh own logs
+**tag: logging**
+
+This section tells Wazuh itself how to record its own events, like startup messages, errors, module activities, and alert processing.
+path to store logs --> /var/ossec/logs/ossec.log
+
+# 17. Wazuh Cluster Configuration
+**tag: cluster**
+
+used to connect multiple Wazuh managers for scalability, high availability, and redundancy. It allows managers to share alerts, configuration, and synchronization across nodes 
+
+# 18. Vulnerability Scanning
+**tag: vulnerability-detector**
+
+ scans systems for known security vulnerabilities based in vulnerability databases like cve.
+
 
